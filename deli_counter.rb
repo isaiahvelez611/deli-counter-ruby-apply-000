@@ -18,9 +18,12 @@ line_array = []
  
  #require "pry"
  
- def take_a_number(katz_deli, name)
-   number = 1
-   puts "Welcome, you have ticket #{katz_deli.push}"
+ def take_a_number(katz_deli)
+   number = 1 
+   number = number + 1
+    katz_deli.push(number)
+   puts "Welcome, you have ticket #{number}"
+ end
  
  
  
